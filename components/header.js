@@ -7,7 +7,7 @@ class Header extends HTMLElement {
 
       <!-- Logo  -->
 
-      <a href="/">
+      <a href="/fashion-Nataly/">
         <img height="50px" width="50px" src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688304021/Nataly/logo_s9ma3x.png" alt="Nataly-logo" />
         </a>
 
