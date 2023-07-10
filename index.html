@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://res.cloudinary.com/dpcxthabw/image/upload/v1688304021/Nataly/logo_s9ma3x.png" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="./components/header.js"></script>
+    <script src="./components/footer.js"></script>
+    <script src="./components/product.js"></script>
+    <script defer src="./script/index.js"></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="icon" type="image/x-icon"
-    href="https://res.cloudinary.com/dpcxthabw/image/upload/v1688304021/Nataly/logo_s9ma3x.png" />
-  <link rel="stylesheet" href="./style/home.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-  <script src="./components/header.js"></script>
-  <script src="./components/footer.js"></script>
-  <script src="./components/product.js"></script>
-  <script defer src="./script/index.js"></script>
+    <title>Nataly</title>
+  </head>
 
-  <title>Nataly</title>
-</head>
-
-<body id="bo">
-  <!-- bgcolor="#14c294" -->
-  <!-- <marquee direction="left" bgcolor="#14c294" loop>
+  <body id="bo">
+    <!-- bgcolor="#14c294" -->
+    <!-- <marquee direction="left" bgcolor="#14c294" loop>
       *Enter code HIFRIEND at checkout to receive discount on first order
       with a value of over <b>€20</b>. Ends 8am BST on 28 August 2023. Codes can
       be
@@ -39,200 +43,217 @@
       not get thesame value back when refunded
     </marquee> -->
 
-  <header-component></header-component>
+    <header-component></header-component>
 
-  <main>
-    <!-- modal menu & modal shopping list -->
+    <main>
+      <!-- modal menu & modal shopping list -->
 
-    <div class="co0">
-      <div>
-        <div id="chart_">
-          <div id="child_product">
-
-          </div>
-          <p class="amount">
-            <span>
-                 <b>Amount:</b>
-                 <strong></strong> 
-                 <b>€</b>
-            </span>
-      
-            <button id="close_">Buy Now</button>
-          </p>
-        </div>
-
-   
-      </div>
-      <aside>
-        <img id="close" alt="close" height="18px" height="18px"
-          src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808820/close__lvmskb.svg" />
-      </aside>
-    </div>
-
-    <!-- 01-- underheader  -->
-
-    <section class="co1">
-      <div>
-        <h1 lg="en">
-          <span>Discover the Latest Fashion Trends at fashion</span>
-          <span> Nataly</span>
-        </h1>
-        <h1 lg="de">
-          <span>Entdecke die neuesten Modetrends bei fashion</span>
-          <span> Nataly</span>
-        </h1>
-
+      <div class="co0">
         <div>
-          <div>
-            <img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-1_vziklf.svg"
-              alt="Free Shipping" height="50px" width="50px" />
-            <h5 lg="en">On All Order Over €599</h5>
-            <h5 lg="de">Bei allen Bestellungen ab 599 €</h5>
-          </div>
-          <div>
-            <img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-2_p3twka.svg"
-              alt="Easy Returns" height="50px" width="50px" />
-            <h5 lg="en">30 Day Returns Policy</h5>
-            <h5 lg="de">30-tägiges Rückgaberecht</h5>
-          </div>
-          <div>
-            <img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397732/service-icon-3_hwzdlr.svg"
-              alt="Secure Payment" height="50px" width="50px" />
-            <h5 lg="en">100% Secure Gaurantee</h5>
-            <h5 lg="de">100 % sichere Garantie</h5>
-          </div>
-          <div>
-            <img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-4_pukulj.svg"
-              alt="Special Support" height="50px" width="50px" />
-            <h5 lg="en">24/7 Dedicated Support</h5>
-            <h5 lg="de">Support rund um die Uhr</h5>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- 02-- List of products -->
-
-    <section class="co2">
-      <div>
-        <div id="list-products" class="list-products"></div>
-        <product-component></product-component>
-      </div>
-    </section>
-
-    <!-- 03-- FAQs -->
-
-    <section class="co3">
-      <div>
-        <h2 lg="en">FAQs</h2>
-
-        <h2 lg="de">Häufig gestellte Fragen</h2>
-
-        <div class="accordtion">
-          <div class="accordionItem">
-            <h3 class="accordionTitle">
-              <span><img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A1_iccsfg.svg"
-                  alt="Order" /></span>
-              <span lg="en">How do I place an order?</span>
-              <span lg="de">Wie kann ich eine Bestellung aufgeben?</span>
-            </h3>
-            <div class="accordionContent">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
-                nulla architecto molestias non error ullam! Ut sint magnam in
-                quas delectus.
-              </p>
-            </div>
-          </div>
-
-          <div class="accordionItem">
-            <h3 class="accordionTitle">
+          <div id="chart_">
+            <div id="child_product"></div>
+            <p class="amount">
               <span>
-                <img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A2_xu1dtm.svg"
-                  alt="Track order" />
+                <b>Amount:</b>
+                <strong></strong>
+                <b>€</b>
               </span>
 
-              <span lg="en">How can I track my order? </span>
-              <span lg="de">Wie kann ich eine Bestellung verfolgen?</span>
-            </h3>
-            <div class="accordionContent">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
-                nulla architecto molestias non error ullam! Ut sint magnam in
-                quas delectus.
-              </p>
-            </div>
+              <button id="close_">Buy Now</button>
+            </p>
           </div>
+        </div>
+        <aside>
+          <img
+            id="close"
+            alt="close"
+            height="18px"
+            height="18px"
+            src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808820/close__lvmskb.svg" />
+        </aside>
+      </div>
 
-          <div class="accordionItem">
-            <h3 class="accordionTitle">
-              <span><img src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A3_szajxi.svg"
-                  alt="customer service" /></span>
-              <span lg="en">How can I contact customer support?</span>
-              <span lg="de">Wie kann ich den Kundensupport kontaktieren?</span>
-            </h3>
-            <div class="accordionContent">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
-                nulla architecto molestias non error ullam! Ut sint magnam in
-                quas delectus.
-              </p>
+      <!-- 01-- underheader  -->
+
+      <section class="co1">
+        <div>
+          <h1 lg="en">
+            <span>
+              Discover the Latest Fashion Trends at fashion
+              <span> Nataly</span>
+            </span>
+          </h1>
+
+          <h1 lg="de">
+            <span>
+              Entdecke die neuesten Modetrends bei fashion
+              <span> Nataly</span>
+            </span>
+          </h1>
+
+          <div>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-1_vziklf.svg"
+                alt="Free Shipping"
+                height="50px"
+                width="50px" />
+              <h5 lg="en">On All Order Over €599</h5>
+              <h5 lg="de">Bei allen Bestellungen ab 599 €</h5>
+            </div>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-2_p3twka.svg"
+                alt="Easy Returns"
+                height="50px"
+                width="50px" />
+              <h5 lg="en">30 Day Returns Policy</h5>
+              <h5 lg="de">30-tägiges Rückgaberecht</h5>
+            </div>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397732/service-icon-3_hwzdlr.svg"
+                alt="Secure Payment"
+                height="50px"
+                width="50px" />
+              <h5 lg="en">100% Secure Gaurantee</h5>
+              <h5 lg="de">100 % sichere Garantie</h5>
+            </div>
+            <div>
+              <img
+                src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688397393/service-icon-4_pukulj.svg"
+                alt="Special Support"
+                height="50px"
+                width="50px" />
+              <h5 lg="en">24/7 Dedicated Support</h5>
+              <h5 lg="de">Support rund um die Uhr</h5>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 04-- Newsletter -->
+      <!-- 02-- List of products -->
 
-    <section class="co4">
-      <div class="newsletter">
-        <img alt="Newsletter" src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808427/Newsletter_iln91c.svg"
-          class="item1" />
-
-        <article class="item2">
-          <h2>
-            <p lg="en">GET OUR WEEKlY <br /><span lg="en">NEWSLETTER</span> </p>
-            <p lg="de">ERHALTEN SIE <br />UNSEREN WÖCHENTLICHEN <span lg="de">NEWSLETTER</span> </p>
-
-
-          </h2>
-
-          <p lg="en">
-            Get weekly updates on the newest Nataly fashion, Offersand<br />
-            tips right in your mailbox. mailbox.<br />
-            <strong lg="en">Subscribe now!</strong>
-          </p>
-          <p lg="de">
-            Erhalten Sie wöchentliche Updates über die neueste Nataly-Mode,
-            Angebote und Tipps direkt in Ihrem Postfach.
-
-            <strong lg="de">Jetzt abonnieren!</strong>
-          </p>
-        </article>
-
-        <div class="item3">
-          <input type="text" placeholder="Email Address" name="E-Mail" />
-          <button>
-            <span lg="en">SUBSCRIBE</span>
-            <span lg="de">ABONNIEREN</span>
-          </button>
+      <section class="co2">
+        <div>
+          <div id="list-products" class="list-products"></div>
+          <product-component></product-component>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
 
-  <footer-component></footer-component>
+      <!-- 03-- FAQs -->
 
+      <section class="co3">
+        <div>
+          <h2 lg="en">FAQs</h2>
 
+          <h2 lg="de">Häufig gestellte Fragen</h2>
 
-</body>
+          <div class="accordtion">
+            <div class="accordionItem">
+              <h3 class="accordionTitle">
+                <span><img
+                    src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A1_iccsfg.svg"
+                    alt="Order" /></span>
+                <span lg="en">How do I place an order?</span>
+                <span lg="de">Wie kann ich eine Bestellung aufgeben?</span>
+              </h3>
+              <div class="accordionContent">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
+                  nulla architecto molestias non error ullam! Ut sint magnam in
+                  quas delectus.
+                </p>
+              </div>
+            </div>
 
+            <div class="accordionItem">
+              <h3 class="accordionTitle">
+                <span>
+                  <img
+                    src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A2_xu1dtm.svg"
+                    alt="Track order" />
+                </span>
+
+                <span lg="en">How can I track my order? </span>
+                <span lg="de">Wie kann ich eine Bestellung verfolgen?</span>
+              </h3>
+              <div class="accordionContent">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
+                  nulla architecto molestias non error ullam! Ut sint magnam in
+                  quas delectus.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordionItem">
+              <h3 class="accordionTitle">
+                <span><img
+                    src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808556/A3_szajxi.svg"
+                    alt="customer service" /></span>
+                <span lg="en">How can I contact customer support?</span>
+                <span lg="de">Wie kann ich den Kundensupport kontaktieren?</span>
+              </h3>
+              <div class="accordionContent">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Dolores quo nostrum suscipit itaque corporis ex saepe, a nisi
+                  nulla architecto molestias non error ullam! Ut sint magnam in
+                  quas delectus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04-- Newsletter -->
+
+      <section class="co4">
+        <div class="newsletter">
+          <img
+            alt="Newsletter"
+            src="https://res.cloudinary.com/dpcxthabw/image/upload/v1688808427/Newsletter_iln91c.svg"
+            class="item1" />
+
+          <article class="item2">
+            <h2>
+              <p lg="en">
+                GET OUR WEEKlY <br /><span lg="en">NEWSLETTER</span>
+              </p>
+              <p lg="de">
+                ERHALTEN SIE <br />UNSEREN WÖCHENTLICHEN
+                <span lg="de">NEWSLETTER</span>
+              </p>
+            </h2>
+
+            <p lg="en">
+              Get weekly updates on the newest Nataly fashion, Offersand<br />
+              tips right in your mailbox. mailbox.<br />
+              <strong lg="en">Subscribe now!</strong>
+            </p>
+            <p lg="de">
+              Erhalten Sie wöchentliche Updates über die neueste Nataly-Mode,
+              Angebote und Tipps direkt in Ihrem Postfach.
+
+              <strong lg="de">Jetzt abonnieren!</strong>
+            </p>
+          </article>
+
+          <div class="item3">
+            <input type="text" placeholder="Email Address" name="E-Mail" />
+            <button>
+              <span lg="en">SUBSCRIBE</span>
+              <span lg="de">ABONNIEREN</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer-component></footer-component>
+  </body>
 </html>
-
-
-

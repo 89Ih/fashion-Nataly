@@ -508,14 +508,13 @@ footer>div:last-child>ul> li > a:hover{
   text-align: center;
   color: #00405a;
   font-size: 40px;
-  flex-wrap: wrap;
   gap: 5px;
  
 
 }
 
 
-.co1>div>h1>span:last-child {
+.co1>div>h1>span> span {
   color: red;
 }
 
@@ -1095,9 +1094,9 @@ color: #00405a;
   .co1>div {
 
     background-image: url("https://res.cloudinary.com/dpcxthabw/image/upload/v1688396045/111-removebg-preview_mk9vhl.png");
-    background-size: 400px 250px;
+    background-size: 400px 250px !important;
     background-position: 50% 70% !important;
-    height: 375px;
+    height: 375px !important;
   }
 
   .co1>div>div {
