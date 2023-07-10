@@ -1,0 +1,164 @@
+{
+    "WomenClothing": {
+        "Tshirts":[
+            {
+                "id": "wt-1",
+                "name": "XYZ white t-shirt",
+                "named": "XYZ weißes T-Shirt",
+                "piece":"7",
+                "price": "14.99",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688390695/01_elyjag.webp",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688390695/01_elyjag.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688390726/03_uohpef.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688390747/02_br8l0s.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688390748/04_fkce9b.webp"
+        ]
+            },
+            {
+                "id": "wt-2",
+                "name": "MRP black t-shirt",
+                "named": "MRP schwarzes T-Shirt",
+                "piece":"6",
+                "price": "19.95",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391119/faith-yarn-jX2cntCbrAo-unsplash_d1uyxp.jpg",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391119/faith-yarn-jX2cntCbrAo-unsplash_d1uyxp.jpg",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391119/faith-yarn-hgtWvsq5e2c-unsplash_voiqjz.jpg",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391119/faith-yarn-Wr0TpKqf26s-unsplash_1_wmxfgv.jpg"
+                ]
+            },
+            {
+                "id": "wt-3",
+                "name": "Cropped t-shirt (Beige)",
+                "named": "Kurzes T-Shirt (Beige)",
+                "piece":"5",
+                "price": "24.95",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391640/a5_ox4zh3.jpg",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391640/a5_ox4zh3.jpg",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391546/a4_hlekly.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391546/a1_qszesw.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688391545/A2_ohk7wi.jpg"
+                ]
+            },
+            {
+                "id": "wt-4",
+                "name": "tank top brown",
+                "named": "Tanktop (brown)",
+                "piece":"35",
+                "price": "90",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392057/b2_blt9fc.webp",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392057/b2_blt9fc.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392057/b1_lkmoux.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392141/b4_rfxhmz.webp"
+                ]
+            },
+            {
+                "id": "wt-5",
+                "name": "dark brown t shirt",
+                "named":"dunkelbraunes T-Shirt",
+                "piece":"8",
+                "price": "70",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/900vanezia070922_900von967_720x.jpg?v=1668068202",
+                "colors": [
+                    "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/895-vanezia.de_elenapetersfotografie_895von967_360x.jpg?v=1663837409",
+                    "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/900vanezia070922_900von967_720x.jpg?v=1668068202"
+                ]
+            },
+            {
+                "id": "wt-6",
+                "name": "anything but not t-shirt",
+                "named":"irgendwas",
+                "piece":"9",
+                "price": "499",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392429/p2_uc8cul.webp",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392429/p2_uc8cul.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392430/p3_ydxcfo.webp",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392429/p1_q2umon.webp"
+                ]
+            }
+            ,
+            {
+                "id": "wt-7",
+                "name": "CROPPED T-SHIRT (BEIGE)",
+                "named":"irgendwas",
+                "price": "25.00",
+                "piece":"2",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/900vanezia070922_900von967_720x.jpg?v=1668068202",
+                "colors": [
+                    "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/895-vanezia.de_elenapetersfotografie_895von967_360x.jpg?v=1663837409",
+                    "https://cdn.shopify.com/s/files/1/0013/0698/4499/products/900vanezia070922_900von967_720x.jpg?v=1668068202"
+                ]
+            },
+            {
+                "id": "wt-8",
+                "name": "Angel t-shirt",
+                "named":"Engel  T-Shirt",
+                "price": "5.00",
+                "piece":"3",
+                "description": "BLACKOO Teen Girl Funny T Shirts Women Cute Tops Junior Graphic Tee",
+                "descriptiond":"SCHWARZE Teen Girl Lustige T-Shirts Damen Niedliche Tops Junior Graphic Tee",
+                "image": "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392810/11.1_hre3nx.jpg",
+                "colors": [
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392810/11.1_hre3nx.jpg",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392810/11_c8ffj5.jpg",
+                    "https://res.cloudinary.com/dpcxthabw/image/upload/v1688392810/11_nt9bva.webp"
+                ]
+            }
+    ],
+        "Jeans":[ {
+            "id": "wj-1",
+            "name": "",
+            "price": "",
+            "description": "",
+            "image": ""
+        }],
+        "Sweaters": [{
+            "id": "ws-1",
+            "name": "",
+            "price": "",
+            "description": "",
+            "image": ""
+        }]
+    },
+    "MenClothing": {
+        "T-shirts": {
+            "id": "mt-1",
+            "name": "",
+            "price": "",
+            "description": "",
+            "image": ""
+        },
+        "Jeans": {
+            "id": "mj-1",
+            "name": "",
+            "price": "",
+            "description": "",
+            "image": ""
+        },
+        "Sweaters": {
+            "id": "ms-1",
+            "name": "",
+            "price": "",
+            "description": "",
+            "image": ""
+        }
+    }
+}
