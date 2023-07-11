@@ -1193,7 +1193,12 @@ padding-top: 50px;
 
     width: 100% !important;
   }
-
+  .item2 > h2 > p:last-child{
+    align-self: center !important;
+    font-size: 20px;
+    width: 150px !important;
+    text-align: justify;
+  }
   .item2 > p {
     display: none !important;
   }
